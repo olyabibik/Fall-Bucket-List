@@ -1,6 +1,6 @@
 # Fall Bucket List App
 
-
+This app was created for learning purposes.
 
 ## Description
 

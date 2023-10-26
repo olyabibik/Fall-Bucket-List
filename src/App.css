@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(https://img.freepik.com/free-vector/autumn-leaves-background_23-2149041913.jpg?w=1060&t=st=1698332414~exp=1698333014~hmac=ef706106e8a7bcd2099ac6047a3066b023cfb8ecac9c77e894e2e2117b301442);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button{
+  background-color: #AC3F21;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  background-color: #EB8242;
+}
+h1{
+  color: #C24914;
+  font-size: 40px;
+}
+h2{
+  color: #61764B;
+}
+.heading{
+  color: #6E2142;
+  font-size: 50px;
+}
+.btnCont{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.btn2{
+  background-color: #6E2142;
+}
+h3{
+  font-size: 25px;
 }

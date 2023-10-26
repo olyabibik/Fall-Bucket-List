@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import FallBucketList from './FallBucketList';
+import Slides from './Slides';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (<div>
+    <div className="container" >
+    <h1>Fall Bucket List</h1>
+    </div>
+    <div>
+      <FallBucketList />
+    </div>
+    <div className="container" >
+        <p className="heading">Seasonal recepies</p>
+    </div>
+    <div>
+      <Slides />
+    </div>
     </div>
   );
 }
